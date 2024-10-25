@@ -4,44 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Fazenda</title>
+    <title>Fazenda Casa Branca</title>
 </head>
 <body>
-    <header>
-        <h1>Bem-vindo à Fazenda CASA BRANCA</h1>
-        <nav>
-            <ul>
-                <li><a href="#produtos">Produtos</a></li>
-                <li><a href="#sobre">Sobre Nós</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
+    <!-- Cabeçalho -->
+    <header class="header">
+        <div class="container">
+            <h1 class="header-title">Bem-vindo à Fazenda Casa Branca</h1>
+            <nav class="navbar">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#produtos" class="nav-link">Produtos</a></li>
+                    <li class="nav-item"><a href="#sobre" class="nav-link">Sobre Nós</a></li>
+                    <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <main>
-        <section id="produtos">
-            <h2>Nossos Produtos</h2>
-            <p>Oferecemos uma variedade de produtos frescos, incluindo:</p>
-            <ul>
-                <li></li>
-                <li>Ovos Caipiras</li>
-                <li>Mel Artesanal</li>
-                <li>Queijos Caseiros</li>
-            </ul>
+
+    <!-- Conteúdo Principal -->
+    <main class="main-content">
+        <!-- Seção de Produtos -->
+        <section id="produtos" class="section produtos">
+            <div class="container">
+                <h2 class="section-title">Nossos Produtos</h2>
+                <p class="section-description">Oferecemos uma variedade de produtos frescos, incluindo:</p>
+                <ul class="product-list">
+                    <li class="product-item">Ovos Caipiras</li>
+                    <li class="product-item">Mel Artesanal</li>
+                    <li class="product-item">Queijos Caseiros</li>
+                </ul>
+            </div>
         </section>
-        <section id="sobre">
-            <h2>Sobre Nós</h2>
-            <p>Somos uma fazenda familiar dedicada à produção sustentável de alimentos frescos. Nossa missão é fornecer produtos de qualidade e promover a agricultura sustentável.</p>
+
+        <!-- Seção Sobre Nós -->
+        <section id="sobre" class="section sobre">
+            <div class="container">
+                <h2 class="section-title">Sobre Nós</h2>
+                <p class="section-description">Somos uma fazenda familiar dedicada à produção sustentável de alimentos frescos. Nossa missão é fornecer produtos de qualidade e promover a agricultura sustentável.</p>
+            </div>
         </section>
-        <section id="contato">
-            <h2>Contato</h2>
-            <p>Entre em contato conosco:</p>
-            <p>Email: faenda.casa.branca@gmail.com</p>
-            <p>Telefone: (43)999177172 (43)999340865
-            </p>
+
+        <!-- Seção de Contato -->
+        <section id="contato" class="section contato">
+            <div class="container">
+                <h2 class="section-title">Contato</h2>
+                <p class="section-description">Entre em contato conosco:</p>
+                <ul class="contact-list">
+                    <li>Email: faenda.casa.branca@gmail.com</li>
+                    <li>Telefone: (43) 99917-7172 | (43) 99934-0865</li>
+                </ul>
+            </div>
         </section>
     </main>
-    <footer>
-        <p>&copy; 2024 Fazenda Exemplo. Todos os direitos reservados.</p>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Fazenda Casa Branca. Todos os direitos reservados.</p>
+        </div>
     </footer>
 </body>
 </html>
