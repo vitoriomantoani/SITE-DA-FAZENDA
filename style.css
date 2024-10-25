@@ -8,23 +8,26 @@
 body {
     font-family: Arial, sans-serif;
     color: #333;
+    background-color: #f4f6f9;
 }
 
 /* Cabeçalho */
 .header {
-    background-color: #4CAF50;
+    background-color: #2E8B57; /* Verde mais escuro */
     color: #fff;
-    padding: 10px 0;
+    padding: 15px 0;
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .header-title {
     text-align: center;
     font-size: 1.8rem;
     margin-bottom: 0.5em;
+    letter-spacing: 1px;
 }
 
 .navbar {
@@ -35,18 +38,18 @@ body {
     list-style: none;
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 25px;
 }
 
 .nav-link {
-    color: #fff;
+    color: #e9f5f3;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 600;
     transition: color 0.3s;
 }
 
 .nav-link:hover {
-    color: #dff;
+    color: #aed9d1; /* Verde suave */
 }
 
 /* Hero */
@@ -58,24 +61,28 @@ body {
     align-items: center;
     text-align: center;
     color: #fff;
+    background-color: #3d9970; /* Cor de fundo para suavizar a transição */
 }
 
 .hero-content h2 {
     font-size: 2.5rem;
     margin-bottom: 0.5em;
+    letter-spacing: 1.2px;
+    color: #f5f5f5;
 }
 
 .btn-primary {
-    padding: 10px 20px;
-    background-color: #ff5722;
+    padding: 12px 24px;
+    background-color: #ff6f61; /* Coral vibrante */
     color: #fff;
     text-decoration: none;
+    font-weight: bold;
     border-radius: 5px;
     transition: background 0.3s;
 }
 
 .btn-primary:hover {
-    background-color: #e64a19;
+    background-color: #ff8a73;
 }
 
 /* Seções */
@@ -85,9 +92,9 @@ body {
 }
 
 .section-title {
-    font-size: 1.8rem;
+    font-size: 2rem;
     margin-bottom: 1em;
-    color: #4CAF50;
+    color: #2E8B57; /* Verde escuro */
 }
 
 /* Produtos */
@@ -99,20 +106,26 @@ body {
 }
 
 .product-item {
-    background: #f9f9f9;
+    background: #ffffff;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.product-item:hover {
+    transform: scale(1.03);
 }
 
 .product-item h3 {
-    color: #4CAF50;
+    color: #2E8B57;
 }
 
 /* Contato */
 .contact-info {
     list-style: none;
     padding-top: 15px;
+    color: #555;
 }
 
 .contact-info li {
@@ -122,9 +135,8 @@ body {
 /* Rodapé */
 .footer {
     background-color: #333;
-    color: #fff;
-    padding: 15px 0;
+    color: #e0e0e0;
+    padding: 20px 0;
     text-align: center;
-    margin-top: 40px;
     font-size: 0.9rem;
 }
