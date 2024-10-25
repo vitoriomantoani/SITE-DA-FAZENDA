@@ -1,14 +1,12 @@
-/* Reset básico */
+/* Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Estrutura */
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
     color: #333;
 }
 
@@ -16,61 +14,117 @@ body {
 .header {
     background-color: #4CAF50;
     color: #fff;
-    padding: 20px 0;
-    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
 }
 
 .header-title {
-    font-size: 2rem;
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 0.5em;
 }
 
-.navbar .nav-list {
+.navbar {
+    text-align: center;
+}
+
+.nav-list {
     list-style: none;
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 20px;
 }
 
 .nav-link {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
+    transition: color 0.3s;
 }
 
 .nav-link:hover {
-    text-decoration: underline;
+    color: #dff;
+}
+
+/* Hero */
+.hero {
+    background: url('banner.jpg') center/cover no-repeat;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5em;
+}
+
+.btn-primary {
+    padding: 10px 20px;
+    background-color: #ff5722;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #e64a19;
 }
 
 /* Seções */
 .section {
-    padding: 40px 0;
+    padding: 60px 0;
     text-align: center;
 }
 
 .section-title {
     font-size: 1.8rem;
-    margin-bottom: 10px;
+    margin-bottom: 1em;
+    color: #4CAF50;
 }
 
-.section-description {
-    font-size: 1rem;
-    color: #666;
+/* Produtos */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding-top: 20px;
 }
 
-.product-list, .contact-list {
+.product-item {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-item h3 {
+    color: #4CAF50;
+}
+
+/* Contato */
+.contact-info {
     list-style: none;
-    padding: 10px 0;
+    padding-top: 15px;
 }
 
-.product-item, .contact-list li {
-    font-size: 1.2rem;
-    margin: 5px 0;
+.contact-info li {
+    margin-bottom: 0.5em;
 }
 
 /* Rodapé */
 .footer {
     background-color: #333;
     color: #fff;
-    text-align: center;
     padding: 15px 0;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9rem;
 }
