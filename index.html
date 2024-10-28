@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Fazenda Casa Branca</title>
+    <title>Fazenda Casa Branca | Produtos Naturais e Sustentáveis</title>
+    <meta name="description" content="Bem-vindo à Fazenda Casa Branca, sua fonte de produtos naturais e sustentáveis, incluindo ovos caipiras, mel artesanal e queijos caseiros.">
+    <meta name="keywords" content="fazenda, produtos naturais, ovos caipiras, mel artesanal, queijos caseiros, sustentabilidade">
 </head>
 <body>
     <!-- Cabeçalho com Navegação Fixa -->
     <header class="header">
         <div class="container">
             <h1 class="header-title">Bem-vindo à Fazenda Casa Branca</h1>
-            <nav class="navbar">
+            <nav class="navbar" aria-label="menu de navegação principal">
                 <ul class="nav-list">
                     <li><a href="#produtos" class="nav-link">Produtos</a></li>
                     <li><a href="#sobre" class="nav-link">Sobre Nós</a></li>
@@ -33,20 +35,23 @@
     <!-- Conteúdo Principal -->
     <main>
         <!-- Seção de Produtos -->
-        <section id="produtos" class="section produtos">
+        <section id="produtos" class="section produtos" aria-labelledby="produtos-title">
             <div class="container">
-                <h2 class="section-title">Nossos Produtos</h2>
+                <h2 id="produtos-title" class="section-title">Nossos Produtos</h2>
                 <p>Oferecemos uma variedade de produtos frescos, incluindo:</p>
                 <div class="product-grid">
                     <article class="product-item">
+                        <img src="imagens/ovos-caipiras.jpg" alt="Ovos caipiras frescos" class="product-image">
                         <h3>Ovos Caipiras</h3>
                         <p>Produzidos naturalmente em nossa fazenda.</p>
                     </article>
                     <article class="product-item">
+                        <img src="imagens/mel-artesanal.jpg" alt="Pote de mel artesanal" class="product-image">
                         <h3>Mel Artesanal</h3>
                         <p>Puro e orgânico, direto das nossas abelhas.</p>
                     </article>
                     <article class="product-item">
+                        <img src="imagens/queijo-caseiro.jpg" alt="Queijo caseiro produzido artesanalmente" class="product-image">
                         <h3>Queijos Caseiros</h3>
                         <p>Sabor e tradição em cada pedaço.</p>
                     </article>
@@ -55,21 +60,21 @@
         </section>
 
         <!-- Seção Sobre Nós -->
-        <section id="sobre" class="section sobre">
+        <section id="sobre" class="section sobre" aria-labelledby="sobre-title">
             <div class="container">
-                <h2 class="section-title">Sobre Nós</h2>
+                <h2 id="sobre-title" class="section-title">Sobre Nós</h2>
                 <p>Somos uma fazenda familiar dedicada à produção sustentável de alimentos frescos. Nossa missão é fornecer produtos de qualidade e promover a agricultura sustentável.</p>
             </div>
         </section>
 
         <!-- Seção de Contato -->
-        <section id="contato" class="section contato">
+        <section id="contato" class="section contato" aria-labelledby="contato-title">
             <div class="container">
-                <h2 class="section-title">Contato</h2>
+                <h2 id="contato-title" class="section-title">Contato</h2>
                 <p>Entre em contato conosco:</p>
                 <ul class="contact-info">
-                    <li><strong>Email:</strong> fazenda.casa.branca@gmail.com</li>
-                    <li><strong>Telefone:</strong> (43) 99917-7172 | (43) 99934-0865</li>
+                    <li><strong>Email:</strong> <a href="mailto:fazenda.casa.branca@gmail.com">fazenda.casa.branca@gmail.com</a></li>
+                    <li><strong>Telefone:</strong> <a href="tel:+5543999177172">(43) 99917-7172</a> | <a href="tel:+5543999340865">(43) 99934-0865</a></li>
                 </ul>
             </div>
         </section>
@@ -79,6 +84,10 @@
     <footer class="footer">
         <div class="container">
             <p>&copy; 2024 Fazenda Casa Branca. Todos os direitos reservados.</p>
+            <ul class="social-links">
+                <li><a href="https://www.facebook.com/fazendacasabranca" target="_blank" aria-label="Facebook da Fazenda Casa Branca">Facebook</a></li>
+                <li><a href="https://www.instagram.com/fazendacasabranca" target="_blank" aria-label="Instagram da Fazenda Casa Branca">Instagram</a></li>
+            </ul>
         </div>
     </footer>
 </body>
