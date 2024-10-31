@@ -1,13 +1,13 @@
 body {
-    background-color: #eaeaea; /* Cor de fundo da página */
-    color: #333; /* Cor do texto */
+    background-color: #e0f7fa; /* Cor de fundo da página (azul claro) */
+    color: #003f5c; /* Cor do texto (azul escuro) */
     font-family: Arial, sans-serif; /* Fonte padrão */
     margin: 0; /* Remove margens padrão do body */
     padding: 0; /* Remove preenchimento padrão do body */
 }
 
 .header {
-    background-color: #4CAF50; /* Cor do cabeçalho */
+    background-color: #00796b; /* Cor do cabeçalho (verde-água) */
     color: white; /* Cor do texto do cabeçalho */
     padding: 20px; /* Espaçamento interno */
 }
@@ -28,18 +28,18 @@ body {
 }
 
 .nav-link:hover {
-    background-color: #45a049; /* Cor ao passar o mouse sobre os links */
+    background-color: #009688; /* Cor ao passar o mouse sobre os links */
 }
 
 .hero {
-    background-color: #007BFF; /* Cor do banner */
+    background-color: #2196f3; /* Cor do banner (azul) */
     color: white; /* Cor do texto no banner */
     padding: 50px 20px; /* Espaçamento interno do banner */
     text-align: center; /* Centraliza o texto */
 }
 
 .btn-primary {
-    background-color: #FF5733; /* Cor do botão */
+    background-color: #64b5f6; /* Cor do botão (azul claro) */
     color: white; /* Cor do texto do botão */
     padding: 10px 20px; /* Espaçamento interno do botão */
     text-decoration: none; /* Remove sublinhado do botão */
@@ -47,7 +47,7 @@ body {
 }
 
 .btn-primary:hover {
-    background-color: #FF3B00; /* Cor ao passar o mouse sobre o botão */
+    background-color: #42a5f5; /* Cor ao passar o mouse sobre o botão */
 }
 
 .section {
@@ -55,7 +55,7 @@ body {
 }
 
 .footer {
-    background-color: #4CAF50; /* Cor do rodapé */
+    background-color: #00796b; /* Cor do rodapé (verde-água) */
     color: white; /* Cor do texto do rodapé */
     text-align: center; /* Centraliza o texto do rodapé */
     padding: 10px; /* Espaçamento interno do rodapé */
