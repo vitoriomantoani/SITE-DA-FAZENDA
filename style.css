@@ -22,9 +22,14 @@ body {
 }
 
 .nav-link {
-    color: white;
+    color: white; /* Texto branco */
     text-decoration: none;
     margin: 0 15px;
+    transition: color 0.3s; /* Adiciona um efeito de transição */
+}
+
+.nav-link:hover {
+    color: #FFC107; /* Amarelo ao passar o mouse */
 }
 
 .hero {
@@ -66,3 +71,4 @@ body {
     display: inline;
     margin: 0 10px;
 }
+gg
