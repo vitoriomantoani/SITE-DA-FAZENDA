@@ -1,99 +1,68 @@
-/* Estilos Gerais */
 body {
-    background-color: #001f3f; /* Azul escuro */
-    color: #ffffff; /* Letras brancas */
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    color: #333;
 }
 
-/* Cabeçalho */
 .header {
-    background-color: #003366; /* Azul ainda mais escuro para o cabeçalho */
+    background-color: #4CAF50; /* Verde */
+    color: white;
     padding: 20px 0;
     text-align: center;
 }
 
-.header-title {
-    color: #ffffff;
-    margin: 0;
+.navbar {
+    margin-top: 10px;
 }
 
-.navbar .nav-list {
-    list-style: none;
+.nav-list {
+    list-style-type: none;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    gap: 15px;
 }
 
 .nav-link {
-    color: #ffffff;
+    color: white;
     text-decoration: none;
+    margin: 0 15px;
 }
 
-.nav-link:hover {
-    text-decoration: underline;
-}
-
-/* Hero */
 .hero {
-    background-color: #00264d; /* Azul intermediário para destaque */
-    padding: 60px 20px;
+    background-image: url('sua-imagem-de-fundo.jpg'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover;
+    color: white;
     text-align: center;
-}
-
-.hero h2,
-.hero p,
-.hero .btn-primary {
-    color: #ffffff;
+    padding: 100px 0;
 }
 
 .btn-primary {
-    background-color: #005f99; /* Botão azul claro */
-    color: #ffffff;
+    background-color: #FFC107; /* Amarelo */
+    color: black;
     padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
     text-decoration: none;
-    border-radius: 5px;
+    font-weight: bold;
 }
 
-.btn-primary:hover {
-    background-color: #007acc;
+.contact-info {
+    list-style-type: none;
+    padding: 0;
 }
 
-/* Seções */
-.section {
-    padding: 40px 20px;
-}
-
-.section-title {
-    color: #ffffff;
-    text-align: center;
-}
-
-/* Grid de Produtos */
-.product-grid {
-    display: flex;
-    justify-content: space-around;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-
-.product-item {
-    background-color: #004080; /* Fundo azul escuro para produtos */
-    padding: 20px;
-    border-radius: 5px;
-    text-align: center;
-}
-
-/* Rodapé */
 .footer {
-    background-color: #001f3f;
-    padding: 20px;
+    background-color: #333;
+    color: white;
     text-align: center;
+    padding: 10px 0;
 }
 
-.footer p {
-    color: #ffffff;
-    margin: 0;
+.social-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-links li {
+    display: inline;
+    margin: 0 10px;
 }
