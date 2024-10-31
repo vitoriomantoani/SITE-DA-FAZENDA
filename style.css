@@ -1,99 +1,72 @@
-/* Estilos Gerais */
 body {
-    background-color: #001f3f; /* Azul escuro */
-    color: #ffffff; /* Letras brancas */
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    background-color: #eaeaea; /* Cor de fundo da página */
+    color: #333; /* Cor do texto */
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    margin: 0; /* Remove margens padrão do body */
+    padding: 0; /* Remove preenchimento padrão do body */
 }
 
-/* Cabeçalho */
 .header {
-    background-color: #003366; /* Azul ainda mais escuro para o cabeçalho */
-    padding: 20px 0;
-    text-align: center;
+    background-color: #4CAF50; /* Cor do cabeçalho */
+    color: white; /* Cor do texto do cabeçalho */
+    padding: 20px; /* Espaçamento interno */
 }
 
 .header-title {
-    color: #ffffff;
-    margin: 0;
+    margin: 0; /* Remove margens do título do cabeçalho */
 }
 
-.navbar .nav-list {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    gap: 15px;
+.nav-list {
+    list-style: none; /* Remove marcadores da lista */
+    padding: 0; /* Remove preenchimento */
 }
 
 .nav-link {
-    color: #ffffff;
-    text-decoration: none;
+    color: white; /* Cor dos links de navegação */
+    text-decoration: none; /* Remove sublinhado dos links */
+    padding: 10px 15px; /* Espaçamento interno dos links */
 }
 
 .nav-link:hover {
-    text-decoration: underline;
+    background-color: #45a049; /* Cor ao passar o mouse sobre os links */
 }
 
-/* Hero */
 .hero {
-    background-color: #00264d; /* Azul intermediário para destaque */
-    padding: 60px 20px;
-    text-align: center;
-}
-
-.hero h2,
-.hero p,
-.hero .btn-primary {
-    color: #ffffff;
+    background-color: #007BFF; /* Cor do banner */
+    color: white; /* Cor do texto no banner */
+    padding: 50px 20px; /* Espaçamento interno do banner */
+    text-align: center; /* Centraliza o texto */
 }
 
 .btn-primary {
-    background-color: #005f99; /* Botão azul claro */
-    color: #ffffff;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
+    background-color: #FF5733; /* Cor do botão */
+    color: white; /* Cor do texto do botão */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    text-decoration: none; /* Remove sublinhado do botão */
+    border-radius: 5px; /* Arredondar os cantos do botão */
 }
 
 .btn-primary:hover {
-    background-color: #007acc;
+    background-color: #FF3B00; /* Cor ao passar o mouse sobre o botão */
 }
 
-/* Seções */
 .section {
-    padding: 40px 20px;
+    padding: 20px; /* Espaçamento interno das seções */
 }
 
-.section-title {
-    color: #ffffff;
-    text-align: center;
-}
-
-/* Grid de Produtos */
-.product-grid {
-    display: flex;
-    justify-content: space-around;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-
-.product-item {
-    background-color: #004080; /* Fundo azul escuro para produtos */
-    padding: 20px;
-    border-radius: 5px;
-    text-align: center;
-}
-
-/* Rodapé */
 .footer {
-    background-color: #001f3f;
-    padding: 20px;
-    text-align: center;
+    background-color: #4CAF50; /* Cor do rodapé */
+    color: white; /* Cor do texto do rodapé */
+    text-align: center; /* Centraliza o texto do rodapé */
+    padding: 10px; /* Espaçamento interno do rodapé */
 }
 
-.footer p {
-    color: #ffffff;
-    margin: 0;
+.social-links {
+    list-style: none; /* Remove marcadores da lista de links sociais */
+    padding: 0; /* Remove preenchimento */
+}
+
+.social-links li {
+    display: inline; /* Exibe os links sociais em linha */
+    margin: 0 10px; /* Espaçamento entre os links sociais */
 }
