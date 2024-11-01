@@ -54,6 +54,14 @@ body {
     padding: 20px; /* Espaçamento interno das seções */
 }
 
+/* Estilo para a seção "Sobre Nós" */
+.sobre {
+    background-color: #ffecb3; /* Cor de fundo da seção (amarelo claro) */
+    color: #5d4037; /* Cor do texto (marrom escuro) */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 5px; /* Cantos arredondados (opcional) */
+}
+
 .footer {
     background-color: #00796b; /* Cor do rodapé (verde-água) */
     color: white; /* Cor do texto do rodapé */
